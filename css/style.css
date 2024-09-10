@@ -1,0 +1,42 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+.Game {
+    width:600px;
+    text-align:center;
+    font-family:system-ui;
+    color:white;
+    margin:auto;
+    font-weight: 500;
+}
+.Game .title {
+    background-color: #f25;
+    padding:10px 0;
+    margin:50px 0;
+    border-radius:5px;
+    width:470px;
+    font-size:35px;
+}
+.Game .title span {
+   color:rgb(255, 170, 0);
+   font-size:35px;
+}
+.Game  .square{
+    font-size:50px;
+    float:left;
+    width:150px;
+    height:150px;
+    background-color: #f25;
+    margin:2px;
+    border-radius:3px;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    user-select: none;
+}
+.Game  .square:hover { 
+    background-color: black;
+}
+
